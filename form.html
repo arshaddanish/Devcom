@@ -12,33 +12,46 @@
 
   <h1>HTML Forms</h1>
 
-  <label for="first-name">First Name: </label>
-  <input name="first-name" type="text" id="first-name" placeholder="Your Name"><br><br>
+  <form action="">
+    <label for="first-name">First Name: </label>
+    <input name="first-name" type="text" id="first-name" placeholder="Your Name"><br><br>
 
-  <label for="">Email: </label>
-  <input name="email" type="email"><br><br>
+    <label for="">Email: </label>
+    <input name="email" type="email" required><br><br>
 
-  <!-- <label for="">File: </label>
-  <input type="file"><br><br> -->
+    <!-- <label for="">File: </label>
+    <input type="file"><br><br> -->
 
-  <label for="">Password: </label>
-  <input name="password" type="password"><br><br>
+    <label for="">Password: </label>
+    <input name="password" type="password"><br><br>
 
-  <p>Frontend Technologies you know: </p>
-  <input name="html" type="checkbox" value="html">
-  <label for="">HTML</label>
-  <input name="css" type="checkbox" value="css">
-  <label for="">CSS</label>
-  <input name="js" type="checkbox" value="js">
-  <label for="">JS</label><br><br>
+    <p>Frontend Technologies you know: </p>
+    <input name="html" type="checkbox" value="html">
+    <label for="">HTML</label>
+    <input name="css" type="checkbox" value="css">
+    <label for="">CSS</label>
+    <input name="js" type="checkbox" value="js">
+    <label for="">JS</label><br><br>
 
-  <p>Gender: </p>
-  <input name="gender" type="radio" value="male">
-  <label for="">Male</label>
-  <input name="gender" type="radio" value="female">
-  <label for="">Female</label><br><br>
+    <p>Gender: </p>
+    <input name="gender" type="radio" value="male">
+    <label for="">Male</label>
+    <input name="gender" type="radio" value="female">
+    <label for="">Female</label><br><br>
+    
+    <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea><br><br>
 
-  
+    <label for="">Department: </label>
+    <select name="dep" id="">
+      <option value="cs">CS</option>
+      <option value="eee">EEE</option>
+      <option value="ec">EC</option>
+      <option value="mech">Mech</option>
+      <option value="civil">Civil</option>
+    </select><br><br>
+
+    <button type="submit">Submit Form</button>
+  </form>
 
   <!-- <label for="">Date: </label>
   <input type="date"><br><br>
